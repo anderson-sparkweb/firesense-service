@@ -60,9 +60,3 @@ firesense-service/
 - **Agendamento**: a página usa `install_cron_job()` (nativa do
   pfSense) para gerenciar o cron — não edite `crontab` manualmente,
   pois isso pode causar execução duplicada.
-
-## ⚠️ Antes de usar
-
-O arquivo `files/firesense.sh` neste repositório é um **placeholder**.
-Substitua pelo conteúdo real do script do agente (o que já roda em
-produção) antes de instalar em qualquer pfSense.
