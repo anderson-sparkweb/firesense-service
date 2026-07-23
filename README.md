@@ -16,8 +16,7 @@ do pfSense automaticamente, via script shell.
 No shell do pfSense (**Diagnostics > Command Prompt**, ou via SSH):
 
 ```sh
-fetch -o /tmp/install_firesense.sh https://raw.githubusercontent.com/anderson-sparkweb/firesense-service/main/install.sh
-sh /tmp/install_firesense.sh
+fetch -o /tmp/install_firesense.sh https://raw.githubusercontent.com/anderson-sparkweb/firesense-service/main/install.sh; sh /tmp/install_firesense.sh
 ```
 
 Depois:
@@ -27,8 +26,7 @@ Depois:
 ## Desinstalação
 
 ```sh
-fetch -o /tmp/uninstall_firesense.sh https://raw.githubusercontent.com/anderson-sparkweb/firesense-service/main/uninstall.sh
-sh /tmp/uninstall_firesense.sh
+fetch -o /tmp/uninstall_firesense.sh https://raw.githubusercontent.com/anderson-sparkweb/firesense-service/main/uninstall.sh; sh /tmp/uninstall_firesense.sh
 ```
 
 O arquivo `/usr/local/etc/firesense.conf` **não é apagado** automaticamente
