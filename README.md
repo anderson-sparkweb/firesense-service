@@ -1,9 +1,6 @@
 # Firesense Service
 
-Instalador leve do Firesense para pfSense — sem depender do formato
-`.pkg` do FreeBSD (que exigiria build via ports/poudriere). Este
-instalador copia os arquivos necessários e registra a página no menu
-do pfSense automaticamente, via script shell.
+Instalador leve do Firesense para pfSense via script shell.
 
 ## Requisitos
 
